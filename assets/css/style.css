@@ -1230,6 +1230,10 @@ html[dir="ltr"] * {
   padding: 5px 0px;
 }
 
+.navbar.scrolled .navbar-contain {
+  top: 49px !important;
+}
+
 .navbar .content {
   width: 100%;
   display: -webkit-box;
