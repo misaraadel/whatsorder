@@ -338,6 +338,47 @@ header {
   }
 }
 
+.sub-header {
+  width: 100%;
+  padding: 140px 0px 50px;
+  background-color: #171717;
+
+  h1 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    font-weight: 900;
+    text-transform: capitalize;
+  }
+}
+
+.help-contain {
+  width: 100%;
+  padding: 40px 0px;
+
+  .heading {
+    width: 100%;
+    text-align: center;
+
+    h1 {
+      font-size: 20px;
+      color: #1B984B;
+      text-align: center;
+      margin-bottom: 25px;
+      font-weight: 900;
+      text-transform: capitalize;
+    }
+  }
+
+  p {
+    color: #606060;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2rem;
+  }
+}
+
 .order {
   width: 100%;
   padding-bottom: 20px;
