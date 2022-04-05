@@ -983,6 +983,29 @@ footer {
   }
 }
 
+.modal-body {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin: 0px auto 40px;
+  }
+
+  .head {
+    width: 100%;
+    text-align: center;
+    color: #171717;
+    font-size: 25px;
+    font-weight: 900;
+  }
+}
+
 .from-contain {
   width: 100%;
 
